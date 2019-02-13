@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "rustwasm-addon",
+  "version": "1.0",
+  "description": "This is a demo project of an add-on written with Rust and WebAssembly",
+  "icons": {
+    "64": "icons/rust.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_title": "test",
+    "default_popup": "index.html"
+  }
+}

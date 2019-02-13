@@ -1,0 +1,25 @@
+{
+  "name": "rustwasm-addon",
+  "author": "William Durand <will+git@drnd.me>",
+  "version": "1.0.0",
+  "license": "Apache-2.0/MIT",
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "build:release": "npm run build && node scripts/build-zip.js && npm run build:src",
+    "build:src": "git archive --format zip -o dist-zip/rustwasm-addon-sources.zip HEAD",
+    "dev": "NODE_ENV=development webpack --watch",
+    "start": "webpack-dev-server -d",
+    "web-ext-run": "web-ext run -s dist/"
+  },
+  "devDependencies": {
+    "@wasm-tool/wasm-pack-plugin": "0.2.2",
+    "clean-webpack-plugin": "^1.0.1",
+    "copy-webpack-plugin": "^4.6.0",
+    "html-webpack-plugin": "^3.2.0",
+    "web-ext": "^2.9.3",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14",
+    "zip-folder": "^1.0.0"
+  }
+}
