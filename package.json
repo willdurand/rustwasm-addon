@@ -1,7 +1,7 @@
 {
   "name": "rustwasm-addon",
   "author": "William Durand <will+git@drnd.me>",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "Apache-2.0/MIT",
   "scripts": {
     "build": "NODE_ENV=production webpack",
