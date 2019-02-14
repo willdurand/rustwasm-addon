@@ -32,3 +32,19 @@ in action (with watch mode):
 ```
 $ npm run web-ext-run
 ```
+
+## Building the extension
+
+After having cloned the repository, install the dependencies:
+
+```
+$ npm i
+```
+
+Compile the project and generate both the extension and sources zip files. The
+`dist-zip/` folder will contain both zip files and the `dist/` folder will
+contain the compiled code of the extension:
+
+```
+$ npm build:release
+```
