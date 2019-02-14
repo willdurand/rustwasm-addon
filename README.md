@@ -12,6 +12,8 @@ have `wasm-bindgen` and `wasm-bindgen-cli` 0.2.34 installed. I am not actually
 sure how I did that but if you are a Rust user, you should be able to figure it
 out. Sorry.
 
+<p align="center"><img src="docs/screenshot.png"></p>
+
 ## Getting started
 
 After having cloned the repository, install the dependencies:
