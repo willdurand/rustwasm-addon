@@ -23,7 +23,7 @@ $ npm i
 Compile the project in dev mode (with watch mode enabled):
 
 ```
-$ npm dev
+$ npm run dev
 ```
 
 You can use [web-ext](https://github.com/mozilla/web-ext) to see the extension
@@ -46,5 +46,5 @@ Compile the project and generate both the extension and sources zip files. The
 contain the compiled code of the extension:
 
 ```
-$ npm build:release
+$ npm run build:release
 ```
