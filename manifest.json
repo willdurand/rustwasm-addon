@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "rustwasm-addon",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "This is a demo project of an add-on written with Rust and WebAssembly",
   "icons": {
     "64": "icons/rust.png"
