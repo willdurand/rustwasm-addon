@@ -4,7 +4,9 @@ A web-extension written with Rust, WebAssembly and so on. This project is based
 on the
 [rust-webpack-template](https://github.com/rustwasm/rust-webpack-template). I
 also took inspiration in the wonderful [Rust and WebAssembly
-book](https://rustwasm.github.io/book/introduction.html).
+book](https://rustwasm.github.io/book/introduction.html). What does this
+extension do? Thanks for asking, it does one thing but it does it terribly well!
+It reverses what's typed into the input!
 
 :warning: There is a [bug with `wasm-bindgen` >
 0.2.34](https://github.com/rustwasm/wasm-bindgen/issues/1246), make sure you
